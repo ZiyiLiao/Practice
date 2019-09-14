@@ -1,5 +1,3 @@
-# Python-practice
-practicing python
+# Prac
 
-+ work: for the topics-oriented practices
-+ prac: for some codes
++ Intermediate Python: the practicing codes for the course Intermediate Python For Data Science in DataCamp
