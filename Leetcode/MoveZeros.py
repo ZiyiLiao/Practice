@@ -19,3 +19,14 @@ class Solution(object):
         return nums
                     
                 
+ """
+ i: points the position of non-zeros
+ j: points the position of zeros
+ """
+j = 0
+
+for i in range(len(nums)):
+    al = nums[i]
+    if al != 0:
+        nums[i], nums[j] = nums[j], nums[i]
+        j += 1
