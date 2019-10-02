@@ -1,5 +1,5 @@
-# Python-practice
-practicing python
+# Practice
+Storing codes of practicing
 
 + work: for the topics-oriented practices
 + prac: for some codes
