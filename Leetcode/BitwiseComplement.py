@@ -4,9 +4,9 @@ class Solution(object):
         :type N: int
         :rtype: int
         """
-        if N == 0: return 1;
-        i = 0
-        while 2**i <= N:
-            i += 1
+        if N == 0: return 1
+        i = 1
+        while i <= N:
+            i *= 2
             
-        return 2**i - N -1
+        return i - N -1
